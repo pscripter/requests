@@ -387,6 +387,7 @@ To do that, just set files to a list of tuples of ``(form_field_name, file_info)
 
 .. _binary mode: https://docs.python.org/2/tutorial/inputoutput.html#reading-and-writing-files
 
+.. warning:: You are responsible to close open files that you pass into the 'files' parameter. Requests does not do it for you.
 
 .. _event-hooks:
 
